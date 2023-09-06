@@ -1,0 +1,31 @@
+{
+  "workbench.colorTheme": "GitHub Light",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.renderWhitespace": "trailing",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true 
+  },
+  // --------------
+  //   Typescript
+  // --------------
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ------
+  //   F#
+  // ------
+  "[fsharp]": {
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp",
+    "editor.tabSize": 4
+  },
+}
