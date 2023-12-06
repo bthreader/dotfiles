@@ -5,27 +5,41 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true 
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // --------------
   //   Typescript
   // --------------
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.inlayHints.parameterNames.enabled": "literals",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  // Prettier
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  // Jest runner
+  "jestrunner.jestCommand": "npm run test",
+  "jestrunner.codeLens": ["run"],
   // ------
   //   F#
   // ------
   "[fsharp]": {
     "editor.defaultFormatter": "Ionide.Ionide-fsharp",
     "editor.tabSize": 4
-  },
+  }
 }

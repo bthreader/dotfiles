@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "firsttris.vscode-jest-runner",
+    "yoavbls.pretty-ts-errors",
+    "naumovs.color-highlight",
+    "tobiasalthoff.atom-material-theme"
+  ]
+}
